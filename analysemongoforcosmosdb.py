@@ -500,7 +500,29 @@ def load_keywords():
  "$$center":{"mongodbversion":"4.0","4.0":"No","4.2":"No"},
  "$$centerSphere":{"mongodbversion":"4.0","4.0":"No","4.2":"No"},
  "$$box":{"mongodbversion":"4.0","4.0":"No","4.2":"No"},
- "$$polygon":{"mongodbversion":"4.0","4.0":"No","4.2":"No"}}
+ "$$polygon":{"mongodbversion":"4.0","4.0":"No","4.2":"No"},
+ "$dateTrunc":{"mongodbversion":"5.0","4.0":"No","4.2":"No"},
+"$densify":{"mongodbversion":"5.1","4.0":"No","4.2":"No"},
+"$documents":{"mongodbversion":"5.1","4.0":"No","4.2":"No"},
+"$fill":{"mongodbversion":"5.3","4.0":"No","4.2":"No"},
+"$firstN":{"mongodbversion":"5.2","4.0":"No","4.2":"No"},
+"$getField":{"mongodbversion":"5.0","4.0":"No","4.2":"No"},
+"$lastN":{"mongodbversion":"5.2","4.0":"No","4.2":"No"},
+"$linearFill":{"mongodbversion":"5.3","4.0":"No","4.2":"No"},
+"$locf":{"mongodbversion":"5.2","4.0":"No","4.2":"No"},
+"$maxN":{"mongodbversion":"5.2","4.0":"No","4.2":"No"},
+"$minN":{"mongodbversion":"5.2","4.0":"No","4.2":"No"},
+"$rand":{"mongodbversion":"5.0","4.0":"No","4.2":"No"},
+"$sampleRate":{"mongodbversion":"5.0","4.0":"No","4.2":"No"},
+"$setField":{"mongodbversion":"5.0","4.0":"No","4.2":"No"},
+"$setWindowFields":{"mongodbversion":"5.0","4.0":"No","4.2":"No"},
+"$sortArray":{"mongodbversion":"5.2","4.0":"No","4.2":"No"},
+"$top":{"mongodbversion":"5.2","4.0":"No","4.2":"No"},
+"$topN":{"mongodbversion":"5.2","4.0":"No","4.2":"No"},
+"$tsIncrement":{"mongodbversion":"5.1","4.0":"No","4.2":"No"},
+"$tsSecond":{"mongodbversion":"5.1","4.0":"No","4.2":"No"},
+"$unsetField":{"mongodbversion":"5.0","4.0":"No","4.2":"No"}
+ }
         
     return thisKeywords
 
