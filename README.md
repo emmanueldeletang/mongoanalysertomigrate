@@ -36,4 +36,4 @@ To enable logging of queries to the MongoDB logs you enable the query profiler a
 db.setProfilingLevel(0, -1)
 It is recommended to use a dev/test MongoDB installation to capture the queries, as the logging of all queries can impact production workloads. 
 
-THIS TOOLS CAN ANALYSE mONG ATLAS LOG TOO
+THIS TOOLS CAN ANALYSE MONGO ATLAS LOG TOO
