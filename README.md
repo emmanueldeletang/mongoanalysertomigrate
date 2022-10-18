@@ -13,7 +13,7 @@ This tool supports examining compatibility with either the 4.0 or 4.2 versions o
  python .\analysemongoforcosmosdb.py  --f Filetoscan --O outputfile
 
 or
-
+%%code
 python .\analysemongoforcosmosdb.py  --d full-path-to-directory-to-scan --O outputfile
 
 By default the tool will test for Cosmosdb Mongo API  4.2 , include --v 4.0 to test for that specific version.
