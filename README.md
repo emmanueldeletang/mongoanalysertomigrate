@@ -11,18 +11,19 @@ Clone the repository.
 This tool supports examining compatibility with either the 4.0 or 4.2 versions of Cosmosdb mongoAPI . The format of the command is:
 ```Shell
  python .\analysemongoforcosmosdb.py  --f Filetoscan --O outputfile
-'''
+```
 or
 ```Shell
 python .\analysemongoforcosmosdb.py  --d full-path-to-directory-to-scan --O outputfile
-'''
+```
 By default the tool will test for Cosmosdb Mongo API  4.2 , include --v 4.0 to test for that specific version.
 
 if you want to test they are some sample in test directory just run 
 
 ```Shell
-python .\analysemongoforcosmosdb.py  --d test --O mytest
-'''
+python .\analysemongoforcosmosdb.py  --d test --O myfile
+
+```
 
 
 "full-path-to-file-to-scan" is a single MongoDB log file or source code file to be scanned for compatibility.
