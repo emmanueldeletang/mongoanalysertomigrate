@@ -2,7 +2,7 @@
 tools who can help to check compatibility of mongo log and  and source code 
 
 CosmosdbDB mongo  API  Compatibility Tool
-This compatibility tool examines log files from MongoDB or source code from MongoDB applications to determine if there are any queries which use operators that are not supported in Cosmosdb Mongo API . This tool produces a simple report of unsupported operators and file names with line numbers for further investigation. this report is save in the local directory based on the output file name you give with the option --O ( becareffull uppercase
+This compatibility tool examines log files from MongoDB or source code from MongoDB applications to determine if there are any queries which use operators that are not supported in Cosmosdb Mongo API . This tool produces a simple report of unsupported operators and file names with line numbers for further investigation. this report is save in the local directory based on the output file name you give with the option --O ( becareffull uppercase)
 
 Installation
 Clone the repository.
