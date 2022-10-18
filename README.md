@@ -7,7 +7,7 @@ This compatibility tool examines log files from MongoDB or source code from Mong
 Installation
 Clone the repository.
 
-Using the tool
+
 This tool supports examining compatibility with either the 4.0 or 4.2 versions of Cosmosdb mongoAPI . The format of the command is:
 ```Shell
  python .\analysemongoforcosmosdb.py  --f Filetoscan --O outputfile
